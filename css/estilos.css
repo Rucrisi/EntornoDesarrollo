@@ -1,0 +1,144 @@
+body {
+    font-family: 'Rock Salt';
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*---------Boton_Inicio---------*/
+
+#volver{
+    text-align: right;
+    font-size: 2em;
+    margin-right: 150px;
+}
+
+/*----------Sections----------*/
+
+#encabezado {
+    background-image: url('img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-inline: 10px;
+    height: 300px;
+    }
+
+#nosotros {
+    background-image: url('img/quienes_somos.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-inline: 10px;
+
+    }
+
+#servicios {
+    background-image: url('img/que_hacemos.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-inline: 10px;
+    }
+
+#ubicacion {
+    background-image: url('img/donde_estamos.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-inline: 10px;
+    }
+
+/*------------Menu-------------*/
+
+#menu nav {
+    margin-inline: 10px;
+    padding-block: 10px;
+    font-size: 1.5em;
+    background-color: rgb(44, 43, 43);
+}
+
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/*-----------Titulo-------------*/
+
+#tatoo{
+    margin-inline: 10px;
+    background-color: white;
+    text-align: center;
+    color: red;
+    padding-block: 60px;
+}
+
+#tatoo h1{
+    font-size: 7em;
+    margin-bottom: 0;
+}
+
+#tatoo h5{
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+h2{
+    color: red;
+    font-size: 4.5em;
+    text-align: center;
+    position: relative;
+}
+
+/*--------Quienes_somos---------*/
+
+#quienes_somos {
+    margin-inline: 200px;
+    color: red;
+    font-size: 1.5em;
+}
+
+/*---------Que_hacemos---------*/
+
+#que_hacemos ul {
+    display:flex;
+    list-style: none;
+    color: red;
+    max-width: 100%;
+    margin-inline: 200px;
+    font-size: 1.5em;
+}
+
+#que_hacemos li {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(44, 43, 43);
+}
+
+/*--------Donde_estamos-------*/
+
+#mapa img {
+    margin-inline: 350px;
+    position:relative;
+    width: 60vw;
+    height: 50vh;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/*------------Pie------------*/
+
+footer{
+    background-color: rgb(44, 43, 43);
+    margin-inline: 10px;
+    position: relative;
+    padding-block: 5px;
+}
+
+#pie{
+    color: white;
+    margin-left: 20px;
+    font-size: 1.25em;
+}
